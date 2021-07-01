@@ -1,0 +1,20 @@
+[package]
+name = "ecs_fun"
+version = "0.1.0"
+authors = ["carlgronvald <carl@gronvald.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+glutin = "0.26.0"
+gl = "0.10.0"
+raw-window-handle = "0.3.3"
+bitflags = "1.2.1"
+regex = "1.5.4"
+nalgebra-glm = "0.13.0"
+png = "*"
+strum = { version = "0.20", features = ["derive"] }
+lazy_static = "*"
+rand = "*"
